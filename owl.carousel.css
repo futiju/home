@@ -1,0 +1,19 @@
+/* Code tidied up by ScrapBook */
+@keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+.owl-carousel { display: none; width: 100%; position: relative; z-index: 1; }
+.owl-carousel .owl-stage { position: relative; }
+.owl-carousel .owl-stage::after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+.owl-carousel .owl-stage-outer { position: relative; overflow: hidden; transform: translate3d(0px, 0px, 0px); }
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next, .owl-carousel .owl-controls .owl-dot { cursor: pointer; -moz-user-select: none; }
+.owl-carousel.owl-loaded { display: block; }
+.owl-carousel .owl-item { position: relative; min-height: 1px; float: left; backface-visibility: hidden; -moz-user-select: none; }
+.owl-carousel .owl-item img { display: block; width: 100%; transform-style: preserve-3d; }
+.no-js .owl-carousel { display: block; }
+.owl-carousel .owl-item img { transform-style: preserve-3d; }

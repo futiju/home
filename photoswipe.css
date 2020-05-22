@@ -1,0 +1,10 @@
+/* Code tidied up by ScrapBook */
+.pswp { display: none; position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; overflow: hidden; touch-action: none; z-index: 1500; backface-visibility: hidden; outline: medium none; }
+.pswp * { box-sizing: border-box; }
+.pswp__bg { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0; backface-visibility: hidden; will-change: opacity; }
+.pswp__scroll-wrap { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; }
+.pswp__container, .pswp__zoom-wrap { touch-action: none; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; }
+.pswp__container, .pswp__img { -moz-user-select: none; }
+.pswp__bg { will-change: opacity; transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1) 0s; }
+.pswp__container, .pswp__zoom-wrap { backface-visibility: hidden; }
+.pswp__item { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; }
